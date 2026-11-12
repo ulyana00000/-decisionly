@@ -16,7 +16,7 @@ if (menuToggle && mainNav) {
 }
 
 // Smooth reveal for sections/cards when they enter the viewport.
-const revealItems = document.querySelectorAll('.feature-card, .examples-panel, .step');
+const revealItems = document.querySelectorAll('.feature-card, .examples-panel, .principle-card, .step');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
